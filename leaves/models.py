@@ -8,6 +8,3 @@ class Leave(models.Model):
     upto_date = models.DateField(auto_now=False, auto_now_add=False)
     calculated_leaves = models.IntegerField()
     reason = models.CharField(max_length=2000)
-    remaining_leaves = models.IntegerField()
-    leaves_taken = models.IntegerField()
-    
