@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^home/', include('home.urls')),
     url(r'^$', views.login_redirect, name='login_redirect'),
     url(r'^login/', include('login.urls')),
     url(r'^leaves/', include('leaves.urls')),

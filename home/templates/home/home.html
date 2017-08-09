@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Audetemi Home page</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="{% static 'home/home.css' %}">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <nav>
+        <section class="nav-container"></section>
+          <aside class="Logo"></aside>
+           <div class="menu">
+             <a href="#"><img src="https://maxcdn.icons8.com/Share/icon/User_Interface//logout_rounded_up1600.png" width="60" height="60"></a>
+           </div>
+          <div class="audetemi">
+             <img src="https://audetemi.com/assets/img/audetemi-logo-500px.png" width="600" height="60">
+          </div>
+    <div class="b">
+          <li></li>
+          <li></li>
+           <div class="user">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiq3x7tjZiOp7p6gL8wLVbgkRpkkizVpmcefJlLTSZaVfHJ5QoUQ" width="250" height="250">
+           <div class="demo">
+               <a href="link3.html"><img src="https://www.iconexperience.com/_img/i_collection_png/256x256/plain/pencil.png" width="30" height="30"></a>
+           </div>
+         </div>
+         <div class="info">
+           <ul>
+           <li>{{ user }}                                         </li>
+           <li>{{ user.email }}                                     </li>
+           <li>Emp Designation                                   </li>
+           <li>Emp ID                                            </li>
+           <li>MOb No                                            </li>
+           <li>Total Leaves                                      </li>
+           <li>Leaves Taken                                      </li>
+           <li>Leave remaining                                   </li>
+         </ul>
+        </div>
+    </div>
+    <div class="foter">
+    </div>
+  </nav>
+    <p class="leave">
+        <a href="{% url 'leaves:index' %}"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_PpgFhEDEUI_i_vFfVismpkDh7EhSwFljsUsAwhRgvFR9nysMqw" height="200" width="200"></a>
+     <p1 class="home">
+        <a href="link2.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX65MhtbOegQxC8XVqnWZ3Qc7mOzBVPem3kJDYkt9YVPbAnS-sBQ" height="190" width="190"></a>
+    </p1>
+  </p>
+  <k class="leave_header">
+       <p>Leave form <p>
+  </k>
+     <k1 class="home_header">
+       <p1>Work from home<p1>
+     </k1>
+
+  <p class="calender">
+      <a href="link2.html"><img src="http://downloadicons.net/sites/default/files/calendar-icon-65989.png" height="200" width="200"></a>
+   <p1 class="export">
+      <a href="link2.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfOB6LDJr9OkmdJk5GX7j7lpgrIUnLhqz_6OrW_I-_jWCDAeA" height="200" width="200"></a>
+  </p1>
+</p>
+   <l class="calender_header">
+     <p>Calender <p>
+   </l>
+     <l1 class="pdf_header">
+       <p1>Export pdf<p1>
+   </l1>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

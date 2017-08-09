@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'login',
+    'home',
     'leaves.apps.LeavesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -124,4 +125,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = '/leaves/'
+LOGIN_REDIRECT_URL = '/home/'
