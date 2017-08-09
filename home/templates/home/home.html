@@ -39,12 +39,12 @@
          </div>
          <div class="info">
            <ul>
-           <li>{{ user }}                                         </li>
-           <li>{{ user.email }}                                     </li>
+           <li>Username:-{{ user }}                                         </li>
+           <li>Email ID:-{{ user.email }}                                     </li>
            <li>Emp Designation                                   </li>
            <li>Emp ID                                            </li>
-           <li>MOb No                                            </li>
-           <li>Total Leaves                                      </li>
+           <li>MOb No:- {{ user.userprofile.mobile_number }}                                           </li>
+           <li>Total Leaves:- {{ user.userprofile.leaves }}                                      </li>
            <li>Leaves Taken                                      </li>
            <li>Leave remaining                                   </li>
          </ul>
