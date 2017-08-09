@@ -1,0 +1,123 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+header{
+    width: 100%;
+    height:auto;
+    position: relative;
+    background: #003333;
+    box-shadow: 0px 2px 8px 0px #003333;
+}
+ .logout{
+   border-radius: 8px;
+   width: 40px;
+   height: 40px;
+   float:right;
+   margin-right: 10px;
+   margin-bottom: 2px;
+   background-color: #fff;
+ }
+ .audetemi{
+    text-align: center;
+    display: block;
+   background-color: #003333;
+ }
+.pencil{
+  margin-top: -15px;
+  display: block;
+  background-color:white;
+  margin-left:90%;
+}
+.user{
+  margin-top: 5px;
+  border-bottom:1px solid #003333;
+  background-color: white;
+}
+div ul li{
+  font-family: sans-serif,Arial;
+  display: block;
+  text-decoration:none;
+  color:#fff;
+  padding:10px;
+  padding-right:100px;
+  background :#003333;
+}
+div ul li{
+  list-style-type:none;
+  display:block;
+  padding:15px;
+  border-bottom:2px solid white;
+}
+div ul li:hover{
+ background:white;
+ transition: linear all 0. 40s;
+ margin-left:1px;
+}
+div ul li:hover{
+ color:black;
+}
+.container{
+  width: 850px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 5%;
+  height: auto;
+}
+label{
+  display: inline-block;
+  width:200px;
+  font-size: 20px;
+}
+input[type=text]{
+  width: 50%;
+  padding: 9px 10px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #003333;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  color: #003333;
+  margin-left: 10px;
+}
+input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 25%;
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+input[type=cancel] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:20%;
+    text-align: center;
+}
+input[type=cancel]:hover{
+    background-color: #45a049;
+}
+.fixed{
+  margin-top:-15px;
+  position: fixed;
+  height: 19px;
+  bottom: 0;
+  width: 100%;
+  border-top:1px solid white;
+  background-color: #003333;
+}
