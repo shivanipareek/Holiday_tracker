@@ -1,0 +1,145 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+header{
+    width: 100%;
+    height:auto;
+    position: relative;
+    background: #003333;
+    box-shadow: 0px 2px 8px 0px #003333;
+}
+ .logout{
+   border-radius: 8px;
+   width: 40px;
+   height: 40px;
+   float:right;
+   margin-right: 10px;
+   margin-bottom: 2px;
+   background-color: #fff;
+ }
+ .audetemi{
+    text-align: center;
+    display: block;
+   background-color: #003333;
+ }
+.pencil{
+  margin-top: -15px;
+  display: block;
+  background-color:white;
+  margin-left:90%;
+}
+.user{
+  margin-top: 5px;
+  border-bottom:1px solid #003333;
+  background-color: white;
+}
+div ul li{
+  font-family: sans-serif,Arial;
+  display: block;
+  text-decoration:none;
+  color:#fff;
+  padding:10px;
+  padding-right:100px;
+  background :#003333;
+}
+div ul li{
+  list-style-type:none;
+  display:block;
+  padding:15px;
+  border-bottom:2px solid white;
+}
+div ul li:hover{
+ background:white;
+ transition: linear all 0. 40s;
+ margin-left:1px;
+}
+div ul li:hover{
+ color:black;
+}
+.container{
+  width: 850px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 5%;
+  height: auto;
+}
+.leave{
+  border-radius: 50%;
+  position: relative;
+  margin-top: 40px;
+  left: 150px;
+}
+.home{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 800px;
+  left: 200px;
+}
+.calender{
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  left: -20px;
+}
+.export{
+  position: relative;
+  margin-top:70px;
+  margin-bottom: 100px;
+  left: 200px;
+}
+
+.leave_header{
+  float: left;
+  font-family: sans-serif,Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003333;
+  line-height: 20px;
+  margin-left: 190px;
+}
+.home_header{
+  width:50%;
+  float: left;
+  font-family: sans-serif,Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003333;
+  line-height: 20px;
+  border-bottom:0px solid #00333;
+  margin-left: 380px;
+  bottom:1500px;
+  margin-top: -20px;
+}
+.calender_header{
+  float: left;
+  font-family: sans-serif,Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003333;
+  border-bottom:0px solid #00333;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+.pdf_header{
+  width:30%;
+  float: left;
+  font-family: sans-serif,Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003333;
+  line-height: 20px;
+  border-bottom:0px solid #00333;
+  margin-left: 400px;
+  margin-top: -30px;
+}
+.fixed{
+  margin-top:-15px;
+  position: fixed;
+  height: 19px;
+  bottom: 0;
+  width: 100%;
+  border-top:1px solid white;
+  background-color: #003333;
+}
