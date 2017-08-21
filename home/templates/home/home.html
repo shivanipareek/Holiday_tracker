@@ -23,7 +23,7 @@
         <section class="nav-container"></section>
           <aside class="Logo"></aside>
            <div class="menu">
-             <a href="{% url 'login:log' %}"><img src="https://maxcdn.icons8.com/Share/icon/User_Interface//logout_rounded_up1600.png" width="60" height="60"></a>
+             <a href="{% url 'login:logout' %}"><img src="https://maxcdn.icons8.com/Share/icon/User_Interface//logout_rounded_up1600.png" width="60" height="60"></a>
            </div>
           <div class="audetemi">
              <img src="https://audetemi.com/assets/img/audetemi-logo-500px.png" width="600" height="60">
@@ -41,8 +41,8 @@
            <ul>
            <li>Username:-{{ user }}                                         </li>
            <li>Email ID:-{{ user.email }}                                     </li>
-           <li>Emp Designation                                   </li>
-           <li>Emp ID                                            </li>
+           <li>Emp Designation :-{{ user.userprofile.emp_desig }}                                  </li>
+           <li>Emp ID :- {{ user.userprofile.emp_id }}                                            </li>
            <li>MOb No:- {{ user.userprofile.mobile_number }}                                           </li>
            <li>Total Leaves:- {{ user.userprofile.leaves }}                                      </li>
            <li>Leaves Taken                                      </li>

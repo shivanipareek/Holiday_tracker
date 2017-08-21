@@ -8,6 +8,8 @@ class UserProfile(models.Model):
     user = models.OneToOneField(User)
     leaves = models.IntegerField(default=20)
     mobile_number = models.BigIntegerField(default=0)
+    emp_desig = models.CharField(max_length=100,default='developer')
+    emp_id = models.IntegerField(default=0)
 
     def __str__(self):
         return self.user.username
