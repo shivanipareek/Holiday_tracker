@@ -1,0 +1,1 @@
+SOLR_BASE_URL = "http://54.200.153.229:8983/solr/"
